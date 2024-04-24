@@ -1,6 +1,6 @@
 {
   "name": "@capgo/google-libphonenumber",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "The up-to-date and reliable Google's libphonenumber package for node.js.",
   "author": {
     "name": "Rui Marinho",
@@ -19,8 +19,15 @@
     "dist/libphonenumber.cjs.js",
     "dist/libphonenumber.cjs.js.map",
     "dist/libphonenumber.amd.js",
-    "dist/libphonenumber.amd.js.map"
+    "dist/libphonenumber.amd.js.map",
+    "types/index.d.ts"
   ],
+  "types": "types/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "libphonenumber": ["types/index.d.ts"]
+    }
+  },
   "keywords": [
     "browserify",
     "e164",
